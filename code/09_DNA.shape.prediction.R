@@ -103,5 +103,5 @@ library(dplyr)
   imbalance <- NULL
   imbalance <- unlist(lapply(seq(1, nrow(summary.merge), by=1), shape.plot))
   
-  summary.merge %>% rename("TF.x"="TF") %>% dplyr::select(!TF.y) %>% dplyr::mutate(imbalance) -> summary.results
+  summary.merge %>% rename("TF.x"="TF") %>% dplyr::select(!TF.y) %>% dplyr::mutate(imbalance) %>% dplyr::arrange(desc(imbalance)) -> summary.results
   write.table(summary.results, paste("results/", "summary_results.txt", sep=""), row.names=FALSE, col.names=TRUE)
