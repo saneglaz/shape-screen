@@ -1,4 +1,4 @@
 # shape-motif
 https://github.com/h-samee/shape-motif
 
-- Require python2
+- Requires python2
