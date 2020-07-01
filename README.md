@@ -4,3 +4,4 @@ Screening in ChIPseq datasets (ENCODE project) looking for structural TFBDs taki
 
 ![image](https://github.com/saneglaz/shape-screen/blob/master/workflow.png)
 ![image](https://github.com/saneglaz/shape-screen/blob/master/extended-shape-plot.png)
+![image](https://github.com/saneglaz/shape-screen/blob/master/shape-plot.png)
