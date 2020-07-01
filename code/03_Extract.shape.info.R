@@ -14,7 +14,7 @@
       #CHANGE FOR YOUR OWN PATH TO BWTOOL
     x <- paste("/home/frigopie/anaconda3/envs/myproject/bin/bwtool extract bed ", 
                getwd(), "/temp.bed ", 
-               getwd(), "/genome", "hg19.ProT.wig.bw ",
+               getwd(), "/genome/", "hg19.ProT.wig.bw ",
                getwd(), "/Shape-profile/", name, sep="")
     system(x)
   }
