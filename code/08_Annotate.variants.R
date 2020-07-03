@@ -1,5 +1,5 @@
   ##################################
-  # 09_Get.annotated.variants.R
+  # 09_Annotate.variants.R
   #################################
 
 library(myvariant)
